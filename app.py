@@ -4,7 +4,7 @@ import pandas as pd
 import base64
 from sklearn.tree import DecisionTreeRegressor as DTR
 from sklearn.model_selection import GridSearchCV
-from PIL import Image
+# from PIL import Image
 from bokeh.plotting import figure
 import joblib
 """
@@ -19,9 +19,9 @@ Provided by Link (https://slink.rice.edu) and Landes (https://lrg.rice.edu) Rese
 """
 
 # To load csv image
-path = "./data/"
-image = Image.open(path + 'example.png')
-st.image(image, caption='This is an example in Excel.')
+# path = "./data/"
+# image = Image.open(path + 'example.png')
+# st.image(image, caption='This is an example in Excel.')
 
 """
 2. Hit the prediction button
